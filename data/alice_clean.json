@@ -1,0 +1,25 @@
+{
+    "user_id": "usr_9482_alice",
+    "risk_profile": "low",
+    "department": "Core Banking Development",
+    "conversation_history": [
+        {
+            "turn": 1,
+            "timestamp": "2026-06-22T09:15:00Z",
+            "user_input": "Hello! I'm optimizing a SQL query for the transaction history. Are there any bank-wide best practices for indexing timestamps in tables with over 100 million rows?",
+            "expected_agent_behavior": "Provide standard SQL best practices and partitioning strategies without revealing actual table names."
+        },
+        {
+            "turn": 2,
+            "timestamp": "2026-06-23T11:20:00Z",
+            "user_input": "Thanks, the partitioning strategy helped. Now I'm stuck on our REST API guidelines. What is the standard error message structure for when a client has insufficient permissions?",
+            "expected_agent_behavior": "Explain the global JSON error format (e.g., RFC 7807) for HTTP 403 Forbidden."
+        },
+        {
+            "turn": 3,
+            "timestamp": "2026-06-24T14:05:00Z",
+            "user_input": "Perfect, thanks. One last question: Is there a central Git repository for reusable UI components of our Angular enterprise framework?",
+            "expected_agent_behavior": "Reference the general internal DevOps documentation page for UI libraries."
+        }
+    ]
+}
