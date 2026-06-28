@@ -1,4 +1,8 @@
 google-genai
 matplotlib
-mcp
-fastapi
+mcp>=0.1.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+numpy>=1.20.0
+requests>=2.31.0
+google-generativeai>=0.8.0
